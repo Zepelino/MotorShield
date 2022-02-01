@@ -10,20 +10,20 @@
 #define M3B P1_5
 #define M4B P1_7
 
-int fatia = 0;
-int OFC = 0;
+char fatia = 0;
+char OFC = 0;
 
-int vels[] = {6,3,5,7};
-int rev[] = {0,0,0,0};
-int select = 0;
+char vels[] = {6,3,5,7};
+char rev[] = {0,0,0,0};
+char select = 0;
 
-int i;
+char i;
 
 unsigned  char Tab7SegCComum[] = {63, 6, 91, 79, 102, 109, 125, 7, 127, 111};
 unsigned char ValorDisplay[]={0, 0}; /*selecionado, velocidade*/
 unsigned char StatusDisplay=0;
 
-int on = 1;
+char on = 1;
 
 void ShowDisplay()
 {
